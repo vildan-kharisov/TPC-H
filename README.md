@@ -27,6 +27,7 @@ TPC-H используется для тестирования производ�
 - Кластер распределенных вычислений Spark (Kubernetes)
 - GitLab для хранения исходного кода
 - Интеграция между GP и Spark будет проходить через внешние таблицы с хранением в S3.
+  
  <img src="https://storage.yandexcloud.net/klms-public/production/learning-content/236/2398/21993/64173/299485/KarpovDEProject-1part-ArchConfigure.drawio_gRCHtGB.png" title="Infrastructure" alt="Infrastructure" width="900" height="900"/>&nbsp; </img>
 
 #### Задачи, решенные в ходе проекта:
