@@ -27,9 +27,7 @@ TPC-H используется для тестирования производ�
 - Кластер распределенных вычислений Spark (Kubernetes)
 - GitLab для хранения исходного кода
 - Интеграция между GP и Spark будет проходить через внешние таблицы с хранением в S3.
-<div>
- <img src="https://storage.yandexcloud.net/klms-public/production/learning-content/236/2398/21993/64173/299485/KarpovDEProject-1part-ArchConfigure.drawio_gRCHtGB.png" title="Infrastructure" alt="Infrastructure" width="900" height="900"/>&nbsp;
-</div>
+ <img src="https://storage.yandexcloud.net/klms-public/production/learning-content/236/2398/21993/64173/299485/KarpovDEProject-1part-ArchConfigure.drawio_gRCHtGB.png" title="Infrastructure" alt="Infrastructure" width="900" height="900"/>&nbsp; </img>
 
 #### Задачи, решенные в ходе проекта:
 - Спроектировал классическую логическую архитектуру, представленную в DAMA DMBOOK в виде аналитического хранилища (analytical data) и озера данных (data lake);
@@ -46,8 +44,10 @@ TPC-H используется для тестирования производ�
 - В Airflow создал необходимые DAG-и для отправки Spark-задач на кластер, отслеживания задач Spark и их статуса, для выполнения запросов к базе Greenplum;
 
 #### Итоговый вид DAG-a в Airflow
-<div>
- <img src="https://github.com/vildan-kharisov/TPC-H/blob/main/Airflow-pipeline/Скриншот%2003-10-2025%2012.20.32.png" title="Infrastructure" alt="Infrastructure" width="1200" height="600"/>&nbsp;
-</div>
+ <img src="https://github.com/vildan-kharisov/TPC-H/blob/main/Airflow-pipeline/Скриншот%2003-10-2025%2012.20.32.png" title="Infrastructure" alt="Infrastructure" width="1200" height="600"/>&nbsp; </img>
+
+#### Сформированные витрины в Greenplum (на основе технологии Greenplum PXF)
+Витрина LineItems
+
 <hr>
 * Проект выполнен в рамках итогового задания образовательного курса Инженер данных на <a href="https://karpov.courses/dataengineer" target="_blank"> KARPOV.COURSES </a>
