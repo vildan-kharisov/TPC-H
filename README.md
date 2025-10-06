@@ -47,7 +47,13 @@ TPC-H используется для тестирования производ�
  <img src="https://github.com/vildan-kharisov/TPC-H/blob/main/Airflow-pipeline/Скриншот%2003-10-2025%2012.20.32.png" title="Infrastructure" alt="Infrastructure" width="1200" height="600"/>&nbsp; </img>
 
 #### Сформированные витрины в Greenplum (на основе технологии Greenplum PXF)
-Витрина LineItems
+- Витрина LineItems
+- Витрина Orders
+- Витрина Customers
+- Витрина Suppliers
+- Витрина Part
+  
+  <img src="https://github.com/vildan-kharisov/TPC-H/blob/main/Greenplum/Витрины.png" title="Infrastructure" alt="Infrastructure" width="800" height="800"/>&nbsp; </img>
 
 <hr>
 * Проект выполнен в рамках итогового задания образовательного курса Инженер данных на <a href="https://karpov.courses/dataengineer" target="_blank"> KARPOV.COURSES </a>
